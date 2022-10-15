@@ -9,26 +9,252 @@
 </head>
 
 <body>
+
   <h1>Forms HTML</h1>
 
-  <h2>Inputs</h2>
-  <form action="boilerplate.html">
-    <label for="username">username</label>
-    <input type="text" id="username" name="username" placeholder="username">
-    <label for="email">email</label>
-    <input type="email" id="email" name="email" placeholder="email">
-    <label for="password">password</label>
-    <input type="password" id="password" name="password" placeholder="password">
-    <label for="phone number">phone number</label>
-    <input type="number" id="phonenumber" name="phonenumber" placeholder="phone number">
-    <h3>Buttons</h3>
-    <button>Submit</button>
+
+  <form action="/">
+    <table>
+      <thead>
+        <tr>
+          <th colspan="4">
+            <h3>Inputs</h3>
+          </th>
+        </tr>
+        <tr>
+          <td>
+            <label for="username">username</label>
+          </td>
+          <td>
+            <label for="email">email</label>
+          </td>
+          <td>
+            <label for="password">password</label>
+          </td>
+          <td><label for="phone number">phone number</label></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <input type="text" id="username" name="username" placeholder="username">
+          </td>
+          <td>
+            <input type="email" id="email" name="email" placeholder="email">
+          </td>
+          <td>
+            <input type="password" id="password" name="password" placeholder="password">
+          </td>
+          <td>
+            <input type="number" id="phonenumber" name="phonenumber" placeholder="phone number">
+          </td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="4" align="center">
+            <button>Submit</button>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
   </form>
-  <ul>
-    <li><a href="/">Local Host Directories</a></li>
-    <li><a href="/html/">Link to Local Directories</a></li>
-    <li><a href="/html/home.html">Home</a></li>
-  </ul>
+
+  <form action="/html/searchtool.html">
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2" align="center">
+            <h3>Radio Buttons</h3>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <input type="radio" name="size" id="s" value="S">
+          </td>
+          <td>
+            <label for="s">Small</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="radio" name="size" id="m" value="M">
+          </td>
+          <td>
+            <label for="m">Medium</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="radio" name="size" id="l" value="L">
+          </td>
+          <td>
+            <label for="l">Small</label>
+          </td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2" align="center">
+            <button>Select</button>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </form>
+
+  <form action="/html/">
+    <table>
+      <tr>
+        <td colspan="2" align="center">
+          <h3>Check Boxes</h3>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="checkbox" name="agree_to" id="agree">
+        </td>
+        <td>
+          <label for="agree">Agree to go to search page</label>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" align="right">
+          <button>Agree</button>
+        </td>
+      </tr>
+    </table>
+  </form>
+
+  <form action="/html/">
+    <table>
+      <thead>
+        <tr>
+          <th>
+            <h3>Select Options</h3>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <label for="pages">Select a page</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <select name="pages" id="pages">
+              <option value="">Please Select</option>
+              <option value="home">home</option>
+              <option value="search">search</option>
+              <option value="chicken">chicken</option>
+            </select>
+          </td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>
+            <button>Submit</button>
+          </td>
+        </tr>
+      </tfoot>
+
+    </table>
+    </select>
+  </form>
+
+  <form action="/">
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2" align="center">
+            <h3>Ranges</h3>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><label for="cheese">Amount of Cheese</label></td>
+          <td><input type="range" name="cheese-level" id="cheese" min="1" max="10"></td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td><Button>Select</Button></td>
+        </tr>
+      </tfoot>
+    </table>
+  </form>
+
+  <form action="/">
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2" align="center">
+            <h3>Text Area</h3>
+          </th>
+        </tr>
+        <th align="left">
+          <label for="text-area">Comment:</label>
+        </th>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="2">
+            <textarea name="text-area" id="text-area" cols="30" rows="10"></textarea>
+          </td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">
+            <button>Submit</button>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </form>
+
+  <form action="/">
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2" align="center">
+            <h3>Built in Validation</h3>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><label for="username">Username</label></td>
+          <td><input type="text" name="user" id="username" required minlength="5" maxlength="8"></td>
+        </tr>
+        <tr>
+          <td><label for="pass"></label>Password</td>
+          <td><input type="password" name="first" id="pass" required minlength="5" maxlength="8"></td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td><button>Submit</button></td>
+        </tr>
+      </tfoot>
+    </table>
+  </form>
+
+  <footer>
+    <ul>
+      <li><a href="/html/home.html">Home</a></li>
+      <li><a href="/html/">HTML Directory</a></li>
+      <li><a href="/exercise/">Exercise Directory</a></li>
+      <li><a href="/code-along/">Code-Along Directory</a></li>
+      <li><a href="/">All Directories</a></li>
+    </ul>
+  </footer>
+
 </body>
 
 </html>

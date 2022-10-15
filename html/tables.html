@@ -9,9 +9,15 @@
 </head>
 
 <body>
+
   <h1>Tables</h1>
-  <h2>Birds</h2>
+
   <table>
+    <tr>
+      <td colspan="3" align="center">
+        <h3>Birds</h3>
+      </td>
+    </tr>
     <tr>
       <th>what</th>
       <th>gender</th>
@@ -29,27 +35,31 @@
     </tr>
   </table>
 
-  <h2>Table Sections</h2>
-
   <table>
     <thead>
+      <tr>
+        <th colspan="3" align="">
+          <h2>Table Sections</h2>
+        </th>
+      </tr>
       <tr>
         <th>what</th>
         <th>gender</th>
         <th>symbol</th>
       </tr>
     </thead>
-    <tr>
-      <td>Man</td>
-      <td>Male</td>
-      <td>m</td>
-    </tr>
-    <tr>
-      <td>Women</td>
-      <td>Female</td>
-      <td>f</td>
-    </tr>
-    </tb>
+    <tbody>
+      <tr>
+        <td>Man</td>
+        <td>Male</td>
+        <td>m</td>
+      </tr>
+      <tr>
+        <td>Women</td>
+        <td>Female</td>
+        <td>f</td>
+      </tr>
+    </tbody>
     <tfoot>
       <tr>
         <td>1</td>
@@ -73,19 +83,20 @@
         <th>lowercase</th>
       </tr>
     </thead>
-    <tr>
-      <td>Man</td>
-      <td>Male</td>
-      <td>M</td>
-      <td>m</td>
-    </tr>
-    <tr>
-      <td>Women</td>
-      <td>Female</td>
-      <td>F</td>
-      <td>f</td>
-    </tr>
-    </tb>
+    <tbody>
+      <tr>
+        <td>Man</td>
+        <td>Male</td>
+        <td>M</td>
+        <td>m</td>
+      </tr>
+      <tr>
+        <td>Women</td>
+        <td>Female</td>
+        <td>F</td>
+        <td>f</td>
+      </tr>
+    </tbody>
     <tfoot>
       <tr>
         <td>1</td>
@@ -94,11 +105,17 @@
       </tr>
     </tfoot>
   </table>
-  <ul>
-    <li><a href="/">Local Host Directories</a></li>
-    <li><a href="/html/">Link to Local Directories</a></li>
-    <li><a href="/html/home.html">Home</a></li>
-  </ul>
+
+  <footer>
+    <ul>
+      <li><a href="/html/home.html">Home</a></li>
+      <li><a href="/html/">HTML Directory</a></li>
+      <li><a href="/exercise/">Exercise Directory</a></li>
+      <li><a href="/code-along/">Code-Along Directory</a></li>
+      <li><a href="/">All Directories</a></li>
+    </ul>
+  </footer>
+
 </body>
 
 </html>
