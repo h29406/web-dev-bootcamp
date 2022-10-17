@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Properties</title>
+    <link rel="stylesheet" href="./stylesheets/4-more-properties.css">
+</head>
+
+<body>
+    <h1>More Properties</h1>
+
+    <h2>Text Align</h2>
+    <p>The css property text-align is intended for text alignment. It can be used to align text:</p>
+    <ul>
+        <li class="left">
+            left - left-aligned (default option)
+        </li>
+        <li class="right">
+            right - right-aligned
+        </li>
+        <li class="center">
+            center - in the center
+        </li>
+        <li class="justify">
+            justify - stretch to the full width of the element
+        </li>
+    </ul>
+
+
+    <h2>Text Decoration</h2>
+    <p>With CSS you can add decoration to the text or accentuate a particular word using the property
+        text-decoration</p>
+    <ul>
+        <li class="none">
+            text-decoration: none
+        </li>
+        <li class="underline">
+            text-decoration: underline
+        </li>
+        <li class="overline">
+            text-decoration: overline
+        </li>
+        <li class="line-through">
+            text-decoration: line-through
+        </li>
+    </ul>
+
+    <h2>First line indent</h2>
+    <p>The first line of the paragraph should often be indented. For example, when writing an article or a book. In CSS
+        this is done using the text-indent property:</p>
+    <ul>
+        <li class="indent-100px">
+            text-indent: 100px
+        </li>
+        <li class="indent-30percent">
+            text-indent: 30%
+        </li>
+    </ul>
+
+    <h2>Text transformation</h2>
+    <p>The text-transform property controls the size (case) of letters. There can be four values in total:</p>
+    <ul>
+        <li>
+            none - no changes
+        </li>
+        <li class="capital">
+            capitalize - all words start with a capital letter
+        </li>
+        <li class="uppercase">
+            uppercase - all characters turned to the uppercase
+        </li>
+        <li class="lowercase">
+            lowercase - all lowercase
+        </li>
+    </ul>
+
+    <h2>Space between characters</h2>
+    <p>To set the spacing between characters, use the letter-spacing property.</p>
+
+    <ul>
+        <li class="letter-spacing20px">
+            letter-spacing: 20px
+        </li>
+        <li class="letter-spacing-4px">
+            letter-spacing: -4px
+        </li>
+    </ul>
+
+    <h2>Space between characters</h2>
+    <p>You can set the spacing between words, in the same way as you set the spacing between characters. The only
+        difference will be in the property name - word-spacing. All other rules are preserved:</p>
+    <ul>
+        <li class="word-spacing">
+            word-spacing: 200px
+        </li>
+    </ul>
+    <p>IMPORTANT! If we also decide to add the CSS property text-align: justify, then the distance between words will be
+        determined by the browser, but will not be less than the value of word-spacing</p>
+    <ul>
+        <li class="word-spacing-text-align">
+            text-align: justify; word-spacing: 20px;
+        </li>
+    </ul>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="./css-home.html">CSS Directory</a>
+            </li>
+            <li>
+                <a href="./exercises/exercises-home.html">Exercises Directory</a>
+            </li>
+            <li>
+                <a href="./code-along/code-along-home.html">Code Along Directory</a>
+            </li>
+            <li>
+                <a href="/html/html-home.html">HTML Directory</a>
+            </li>
+            <li>
+                <a href="/home.html">Bootcamp Directory</a>
+            </li>
+    </footer>
+</body>
+
+</html>

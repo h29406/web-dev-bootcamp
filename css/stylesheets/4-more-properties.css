@@ -1,0 +1,72 @@
+h1 {
+  font-size: 60px;
+  text-align: center;
+  text-decoration: underline;
+}
+h2 {
+  text-decoration: underline;
+}
+
+p {
+  font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+
+li {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+.justify {
+  text-align: justify;
+}
+
+.underline {
+  text-decoration: underline;
+}
+.overline {
+  text-decoration: overline;
+}
+.line-through {
+  text-decoration: line-through;
+}
+
+.indent-100px {
+  text-indent: 100px;
+}
+.indent-30percent {
+  text-indent: 30%;
+}
+
+.capital {
+  text-transform: capitalize;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+
+.letter-spacing20px {
+  letter-spacing: 20px;
+}
+.letter-spacing-4px {
+  letter-spacing: -4px;
+}
+
+.word-spacing {
+  word-spacing: 200px;
+}
+.word-spacing-text-align {
+  text-align: justify;
+  word-spacing: 20px;
+}
