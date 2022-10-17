@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How To Include CSS</title>
+    <style>
+        span {
+            color: rgb(245, 57, 57);
+            background-color: rgb(228, 220, 220);
+        }
+    </style>
+    <link rel="stylesheet" href="./stylesheets/1-external-style-sheet.css">
+</head>
+
+<body>
+    <header>
+        <h1>How To Include CSS</h1>
+    </header>
+
+    <main>
+
+        <ul>
+
+            <li>
+                <h2 style="color: purple;">
+                    Inline CSS Style
+                </h2>
+                <ol>
+                    <li style="font-weight: bold; color: red;">
+                        <h3>Not a good approach</h3>
+                    </li>
+                    <ol>
+                        <li>
+                            Adding CSS rules to each HTML element takes time and makes your HTML structure unorganized.
+                            It's difficult to keep up, reuse, and scale.
+                        </li>
+                    </ol>
+                    <li style="font-weight: bold; color: blue;">
+                        <h3>Can be used</h3>
+                    </li>
+                    <ol>
+                        <li>
+                            Inline takes precedence over all other styles. Any styles defined in the internal and
+                            external style sheets are overridden by inline styles.
+                        </li>
+                    </ol>
+                </ol>
+            </li>
+
+            <li>
+                <h2>
+                    The <span>&lt;Style&gt;</span> Element
+                </h2>
+                <ol>
+                    <li style="font-weight: bold; color: red;">
+                        <h3>Not a good approach</h3>
+                    </li>
+                    <ol>
+                        <li>
+                            Difficult in styling multiple html document.
+                        </li>
+                    </ol>
+                    <li style="font-weight: bold; color: blue;">
+                        <h3>Can be used</h3>
+                    </li>
+                    <ol>
+                        <li>
+                            Style same type of elements.
+                        </li>
+                    </ol>
+                </ol>
+            </li>
+            <li>
+                <h2>
+                    The External Style Sheet
+                </h2>
+                <ol>
+                    <li style="font-weight: bold; color: red;">
+                        <h3>Recommended</h3>
+                    </li>
+                    <ol>
+                        <li>
+                            More Flexible
+                        </li>
+                    </ol>
+                </ol>
+            </li>
+
+            <!-- 
+            
+                    
+             
+              
+                            -->
+        </ul>
+    </main>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="/css/css-home.html">CSSHome</a>
+            </li>
+            <li>
+                <a href="/html/html-home.html">HTML</a>
+            </li>
+            <li>
+                <a href="/exercises/exercises-home.html">Exercises</a>
+            </li>
+            <li>
+                <a href="/code-along/code-along-home.html">Code Along</a>
+            </li>
+            <li>
+                <a href="/home.html">Bootcamp Directory</a>
+            </li>
+    </footer>
+</body>
+
+</html>
