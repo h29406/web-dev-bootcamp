@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marathon Registration</title>
+</head>
+
+<body>
+    <header>
+        <h1>Race Registration!</h1>
+    </header>
+
+    <main>
+        <form action="/">
+            <table>
+                <tr>
+                    <td>
+                        <label for="f-name"><b>First Name</b></label>
+                    </td>
+                    <td>
+                        <input type="text" name="f-name" id="f-name" placeholder="First Name" required>
+                    </td>
+                    <td>
+                        <label for="l-name"><b>Last Name</b></label>
+                    </td>
+                    <td>
+                        <input type="text" name="l-name" id="l-name" placeholder="Last Name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <b>Select a Race:</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <input type="radio" name="km" id="5k" value="5k" checked="checked">
+                        <label for="5k"><b>Fun Run 5k</b></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <input type="radio" name="km" id="21k" value="21k">
+                        <label for="21k"><b>Half Marathon</b></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <input type="radio" name="km" id="42k" value="42k">
+                        <label for="42k"><b>Marathon</b></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email"><b>Email</b></label>
+                    </td>
+                    <td>
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                    </td>
+                    <td>
+                        <label for="pass"><b>Password</b></label>
+                    </td>
+                    <td>
+                        <input type="password" name="pass" id="pass" placeholder="5-8 Charators" required minlength="5"
+                            maxlength="8">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <label for="age-g"><b>Select Age Group</b></label>
+                        <select name="age-g" id="age-g" required>
+                            <option value="">Please Select</option>
+                            <option value="under-18">Under-18</option>
+                            <option value="19-30">19-30</option>
+                            <option value="over-31">Over-31</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <button type="submit">Register!</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="/html/home.html">Home</a></li>
+            <li><a href="/html/">HTML Directory</a></li>
+            <li><a href="/exercise/">Exercises Directory</a></li>
+            <li><a href="/code-along/">Code-Along Directory</a></li>
+            <li><a href="/">All Directories</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
