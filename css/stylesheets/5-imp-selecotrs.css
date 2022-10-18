@@ -1,0 +1,109 @@
+/* Universal Selector: selects all elements */
+/* * {
+  background-color: #edede9;
+} */
+
+body {
+  background-color: #edf2f4;
+}
+
+/* element selector */
+h1 {
+  text-transform: uppercase;
+}
+
+button {
+  background-color: #8ecae6;
+}
+
+/* combine elements multiple selectors*/
+h1,
+h2 {
+  color: #202b94;
+  text-decoration: underline;
+}
+
+/* ID selector: select one specific element: unique identifier */
+#sign-up {
+  background-color: #003566;
+  color: #f7ede2;
+}
+
+span {
+  color: #3a0ca3;
+}
+
+/* class selector: can be applied to group of element to style similarly */
+.tag {
+  background-color: #f28482;
+  color: #f7ede2;
+  font-size: 20px;
+}
+
+/* descendant selector: elements that are nested inside an element */
+.post a {
+  color: #003566;
+  text-decoration: none;
+}
+
+.list {
+  background-color: #d3ebd7;
+}
+
+footer a {
+  color: #3a0ca3;
+}
+
+/* adjacent selector: + select the element adjacent (right after) to the precedent element */
+
+h2 + button {
+  font-size: 20px;
+  background-color: #a5f7b3;
+}
+
+/* Direct Child: selects the element that are direct children of a the precedent element*/
+footer > a {
+  color: red;
+}
+
+/* attribute selector : select elements based on the attribute*/
+input [type="password"] {
+  color: green;
+}
+
+a[href*="css-home"] {
+  color: red;
+}
+
+.post button:hover {
+  background-color: #f28482;
+  color: #f7ede2;
+}
+
+/* pseudo class */
+a:hover {
+  text-decoration: underline;
+}
+
+.post button:active {
+  background-color: aqua;
+  color: rgb(245, 116, 116);
+}
+
+.list:nth-of-type(2n) {
+  background-color: #98a89b;
+}
+
+/* pseudo element */
+h2::first-letter {
+  font-size: 50px;
+}
+
+.fp::first-line {
+  color: red;
+}
+
+.sp::selection {
+  background-color: black;
+  color: white;
+}
